@@ -1,0 +1,67 @@
+body.admin_page_advanced-blocks-welcome {
+	background-color: #f3f6f8;
+}
+
+.advanced-blocks-welcome {
+	font-size: 16px;
+}
+
+.advanced-blocks-welcome h2 {
+	font-size: 23px;
+	font-weight: normal;
+}
+
+.advanced-blocks-welcome p.intro {
+	font-size: 19px;
+	color: #333;
+}
+
+.advanced-blocks-welcome p {
+	font-size: inherit;
+	margin-top: 0;
+	color: #4f4f4f;
+}
+
+.advanced-blocks-welcome p:last-of-type {
+	margin: 0;
+}
+
+.advanced-blocks-welcome .content {
+	max-width: 390px;
+	background: #fff;
+	padding: 30px;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.advanced-blocks-welcome .content-wrapper {
+	width: 38%;
+}
+.advanced-blocks-welcome .video-wrapper {
+	flex: 1;
+	margin-right: 20px;
+}
+
+.advanced-blocks-welcome .container {
+	display: flex;
+}
+
+.advanced-blocks-welcome .advanced-button {
+	border: none;
+	outline: 0;
+	box-shadow: none;
+	background: #3575FF;
+	width: 330px;
+	max-width: 100%;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	height: 45px;
+	box-sizing: border-box;
+}
+.advanced-blocks-welcome .advanced-button:hover {
+	background: #2257ca;
+}

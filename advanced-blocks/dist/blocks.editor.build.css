@@ -1,0 +1,433 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+**/
+.bokez-progress-bar-wrapper {
+  padding: 30px 1em 0; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+i.dashicon {
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  overflow: hidden; }
+
+.advanced-p-20 {
+  padding: 20px; }
+  .advanced-p-20 p:last-of-type {
+    margin-bottom: 0; }
+
+[class*="wp-block-advanced-"] h1, [class*="wp-block-advanced-"] h2, [class*="wp-block-advanced-"] h3, [class*="wp-block-advanced-"] h4, [class*="wp-block-advanced-"] h5, [class*="wp-block-advanced-"] h6, [class*="wp-block-advanced-"] p {
+  color: inherit; }
+
+.wp-block-advanced-accordion .editor-rich-text__tinymce[data-is-placeholder-visible=true]:after {
+  right: -20px; }
+
+.wp-block-advanced-accordion__title {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1 !important;
+  position: relative;
+  margin: -20px -20px 0px -20px !important; }
+  .wp-block-advanced-accordion__title + .wp-block-advanced-accordion__title:after {
+    display: none; }
+  .wp-block-advanced-accordion__title:after {
+    content: '\f068';
+    font-family: 'Font Awesome 5 Free';
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    font-weight: 900;
+    line-height: 1;
+    position: absolute;
+    right: 20px;
+    -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+            transform: translateY(-100%);
+    color: currentColor;
+    bottom: 0; }
+
+.wp-block-advanced-accordion__content {
+  padding: 20px 0; }
+  .wp-block-advanced-accordion__content p {
+    color: inherit; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+.wp-block-advanced-pricing-table:empty {
+  display: none; }
+
+.wp-block-advanced-pricing-table .inline-container {
+  display: inline-block;
+  vertical-align: middle; }
+  .wp-block-advanced-pricing-table .inline-container select,
+  .wp-block-advanced-pricing-table .inline-container > div {
+    margin: 0; }
+
+.wp-block-advanced-pricing-table__add svg {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 5px; }
+
+.wp-block-advanced-pricing-table__featured {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+
+.wp-block-advanced-pricing-table__features {
+  margin-top: 2.5rem !important;
+  margin-bottom: 2rem !important; }
+
+.wp-block-advanced-pricing-table .components-button i {
+  -webkit-transform: translateX(-3px);
+      -ms-transform: translateX(-3px);
+          transform: translateX(-3px);
+  font-size: 15px; }
+
+.wp-block-advanced-pricing-table .is-selected {
+  outline: 4px solid #0085ba;
+  outline-offset: -4px; }
+
+.wp-block-advanced-pricing-table .block-library-gallery-item__inline-menu {
+  width: 100%;
+  background-color: transparent; }
+  .wp-block-advanced-pricing-table .block-library-gallery-item__inline-menu button {
+    background-color: #0085ba;
+    color: #fff;
+    position: absolute;
+    top: 0; }
+
+.wp-block-advanced-pricing-table .blocks-gallery-item__remove:not(.item-left) {
+  right: 0; }
+
+.wp-block-advanced-pricing-table .item-left {
+  right: initial;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto; }
+
+.wp-block-advanced-pricing-table .editor-rich-text__tinymce.mce-content-body {
+  line-height: 1.2; }
+
+.wp-block-advanced-pricing-table.has-full-width-button .wp-block-button {
+  width: 100%; }
+
+.edit-post-visual-editor .wp-block-advanced-pricing-table ul {
+  list-style: none; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+/**
+ * Editor styles for the admin
+ */
+.ab-block-cta {
+  margin-bottom: 0; }
+
+.editor-block-list__layout [data-type="atomic-blocks/ab-cta"] {
+  margin-bottom: 1.2em; }
+
+.ab-cta-button .blocks-button__inline-link .editor-url-input {
+  display: inline-block;
+  width: auto; }
+
+.ab-cta-button .blocks-button__inline-link .components-button {
+  display: inline-block; }
+
+.ab-cta-button .blocks-button__inline-link svg {
+  vertical-align: middle;
+  margin-right: 8px; }
+
+.ab-block-cta h2.editor-rich-text__tinymce.mce-content-body {
+  line-height: 1.2; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-ub-number-box {
+  margin: 0 auto;
+  max-width: 740px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+.wp-block-advanced-posts-grid {
+  list-style: none !important; }
+  .wp-block-advanced-posts-grid li {
+    margin: 0; }
+  .wp-block-advanced-posts-grid figure {
+    margin: 0;
+    padding: 0; }
+    .wp-block-advanced-posts-grid figure img {
+      width: 100%; }
+  .wp-block-advanced-posts-grid__meta {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    font-size: 0.8em; }
+    .wp-block-advanced-posts-grid__meta p {
+      font-size: inherit !important; }
+    .wp-block-advanced-posts-grid__meta img {
+      width: 30px;
+      border-radius: 50%;
+      margin-right: 10px; }
+    .wp-block-advanced-posts-grid__meta span {
+      display: inline-block; }
+    .wp-block-advanced-posts-grid__meta span,
+    .wp-block-advanced-posts-grid__meta img {
+      vertical-align: middle; }
+  .wp-block-advanced-posts-grid__author {
+    margin: 0;
+    color: currentColor; }
+  .wp-block-advanced-posts-grid__title {
+    font-size: 30px;
+    font-weight: bold; }
+    .wp-block-advanced-posts-grid__title a {
+      text-decoration: none;
+      color: currentColor; }
+  .wp-block-advanced-posts-grid__read-more {
+    font-size: 0.8em !important;
+    margin: 0; }
+    .wp-block-advanced-posts-grid__read-more a {
+      color: currentColor;
+      text-decoration: none; }
+  @media screen and (min-width: 768px) {
+    .wp-block-advanced-posts-grid.is-grid {
+      display: grid;
+      grid-gap: 80px;
+      grid-template-columns: repeat(2, 1fr); }
+      .wp-block-advanced-posts-grid.is-grid.columns-3 {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px; }
+      .wp-block-advanced-posts-grid.is-grid.columns-4 {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+**/
+.bokez-notification {
+  display: block !important; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+**/

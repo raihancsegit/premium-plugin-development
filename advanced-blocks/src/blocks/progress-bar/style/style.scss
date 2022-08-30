@@ -1,0 +1,66 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+**/
+
+.bokez-progress-bar-wrapper{
+	padding: 30px 1em 0;
+}
+
+.bokez-progress-bar{
+	height: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+	position: relative;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+
+	.bokez-progress-bar-progress{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 50%;
+		height: 100%;
+		font-size: 12px;
+		line-height: 20px;
+		color: #fff;
+		text-align: center;
+		background-color: rgb(23,44,60);
+		border-radius: 4px;		
+		-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+		box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+		-webkit-transition: width .6s ease;
+		-o-transition: width .6s ease;
+		transition: width .6s ease;
+	}
+
+	.bokez-progress-bar-tooltip{
+		position: absolute;
+		right: -28px;
+		top: -40px;
+		padding: 5px 15px;
+		background-color: #eebf3f;
+		color: rgb(23,44,66);
+		font-weight: bold;
+		font-size: 13px;
+		border-radius: 3px;
+		font-weight: normal;
+
+		span{
+			width: 0;
+			height: 0;			
+			position: absolute;
+			bottom: -5px;
+			left: 50%;
+			margin-left: -5px;
+			border-color: transparent;
+			border-style: solid;
+			border-width: 5px 5px 0;
+			border-left: 5px solid transparent;
+			border-right: 5px solid transparent;
+			border-top: 5px solid #eebf3f;
+		}
+	}
+}

@@ -1,0 +1,60 @@
+.profile-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  line-height: 2.5em;
+}
+
+.profile-icon-container {
+  font-size: 14px;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  width: 90%;
+  flex: 12;
+}
+
+.selected-profile-icon {
+  margin-left: 5px;
+}
+
+.link-form-wrapper {
+  margin-top: 10px;
+}
+
+.social-link-input {
+  margin-bottom: 10px;
+}
+
+.profile-icon-wrapper {
+  height: 1em;
+  width: 1em;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.drag-helper {
+  z-index: 100;
+  list-style: none;
+}
+
+.drag-handle {
+  flex: 1;
+  background: darkgrey;
+  border-right: 1px solid;
+  cursor: move;
+  color: #ffffff;
+  align-items: center;
+  display: flex !important;
+  justify-content: center;
+}
+
+.eb-delete-social:hover {
+  color: red;
+}

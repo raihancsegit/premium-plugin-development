@@ -1,0 +1,101 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+
+// Colors.
+$accent: #5a3fd6;
+$lightgray: #626e81;
+
+// Colors.
+$black: rgb(41, 41, 41);
+$white: #ffffff;
+$gray: #dedede;
+$green: #bada55;
+$red: orangered;
+
+// Breakpoints
+$mobile: 576px;
+$tablet: 768px;
+$desktop: 992px;
+$widescreen: 1200px;
+
+// Block Form Inputs
+.bokez-block-form{
+    .editor-url-input input[type=text]{
+        border: 1px solid #e1e1e1;
+    }
+}
+
+// Controls
+._item_bokez{
+    ._item_controls_bokez{
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background-color: #010100;
+        color: white;
+        z-index: 9999;
+        padding: 0 4px;
+    
+        span{
+            display: inline-block;
+            padding: 4px;
+            cursor: pointer;
+        }
+    }
+}
+
+.bokez-add-item-wrapper{
+    margin: 20px auto;
+	text-align: center;
+}
+
+$breakpoint__sm: 576px;
+$breakpoint__md: 768px;
+$breakpoint__lg: 992px;
+$breakpoint__xl: 1200px;
+
+$black: #1d1d1f;
+
+$default-feature: min-width; // Default @media feature for the breakpoint() mixin
+
+@mixin media( $query: $feature $value ) {
+	@if length($query) == 1 {
+		@media screen and ($default-feature: nth($query, 1)) {
+			@content;
+		}
+	}
+
+	@else if length($query) == 2 {
+		@media screen and (nth($query, 1): nth($query, 2)) {
+			@content;
+		}
+	}
+
+	@else if length($query) == 4 {
+		@media screen and (nth($query, 1): nth($query, 2)) and (nth($query, 3): nth($query, 4)) {
+			@content;
+		}
+	}
+
+	@else {
+		@warn "Wrong number of arguments for breakpoint(). Read the documentation for more details.";
+	}
+}
+
+@mixin far() {
+	@content;
+	font-family: 'Font Awesome 5 Free';
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	font-weight: 900;
+	line-height: 1;
+}
+

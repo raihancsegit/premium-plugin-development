@@ -1,0 +1,83 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+**/
+
+.bokez-notification{
+	padding: 1.3em 1.5em;
+	margin: 0;
+	position: relative;
+	display: none;
+	
+	p{
+		margin: 0;
+	}
+}
+
+.bokez-notification-close{
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.bokez-notification-info{
+	background-color: rgb(116, 185, 255);
+	color: white;
+}
+
+.bokez-notification-error{
+	background-color: rgb(214, 48, 49);
+	color: white;
+}
+
+.bokez-notification-warning{
+	background-color: rgb(255, 234, 167);
+	color: black;
+}
+
+.bokez-notification-success{
+	background-color: rgb(0, 184, 148);
+	color: white;
+}
+
+.bokez-notification-warning svg{
+	fill: black;
+}
+
+.bokez-notification-success svg,
+.bokez-notification-error svg,
+.bokez-notification-info svg{
+	fill: white;
+}
+
+.bokez-notification-primary {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+.bokez-notification-secondary {
+  color: #383d41;
+  background-color: #e2e3e5;
+  border-color: #d6d8db;
+}
+
+.bokez-notification-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.bokez-notification-light {
+  color: #818182;
+  background-color: #fefefe;
+  border-color: #fdfdfe;
+}
+.bokez-notification-dark {
+  color: #1b1e21;
+  background-color: #d6d8d9;
+  border-color: #c6c8ca;
+}

@@ -1,0 +1,985 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+.input-wrapper {
+  width: 20%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
+.input-wrapper button {
+  width: 40px;
+  height: 30px; }
+
+.dimention-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  width: 250px;
+  margin-bottom: 1em; }
+
+.dimention-label {
+  margin-bottom: 4px; }
+
+.input-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+.eb-countdown-items {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1;
+      flex: 1; }
+
+.eb-countdown-item {
+  list-style: none;
+  border: 3px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.eb-countdown-days,
+.eb-countdown-hours,
+.eb-countdown-minutes,
+.eb-countdown-seconds {
+  height: 100%;
+  width: 100%; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+**/
+.bokez-progress-bar-wrapper {
+  padding: 30px 1em 0; }
+
+.bokez-progress-bar {
+  height: 20px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  position: relative;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); }
+  .bokez-progress-bar .bokez-progress-bar-progress {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #172c3c;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease; }
+  .bokez-progress-bar .bokez-progress-bar-tooltip {
+    position: absolute;
+    right: -28px;
+    top: -40px;
+    padding: 5px 15px;
+    background-color: #eebf3f;
+    color: #172c42;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: normal; }
+    .bokez-progress-bar .bokez-progress-bar-tooltip span {
+      width: 0;
+      height: 0;
+      position: absolute;
+      bottom: -5px;
+      left: 50%;
+      margin-left: -5px;
+      border-color: transparent;
+      border-style: solid;
+      border-width: 5px 5px 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid #eebf3f; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+[class*="wp-block-advanced-"] p {
+  margin: 0; }
+  [class*="wp-block-advanced-"] p + p {
+    margin-top: 1em; }
+
+[class*="wp-block-advanced-"] h1, [class*="wp-block-advanced-"] h2, [class*="wp-block-advanced-"] h3, [class*="wp-block-advanced-"] h4, [class*="wp-block-advanced-"] h5, [class*="wp-block-advanced-"] h6 {
+  margin: 0; }
+
+.wp-block-advanced-accordion {
+  padding: 20px;
+  margin-bottom: 1.5em; }
+  .wp-block-advanced-accordion summary {
+    padding: 20px;
+    padding-right: 40px;
+    margin: -20px -20px 20px -20px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    line-height: 1;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+    .wp-block-advanced-accordion summary:focus {
+      outline: 0; }
+    .wp-block-advanced-accordion summary::-webkit-details-marker {
+      display: none; }
+    .wp-block-advanced-accordion summary:after {
+      content: '\f067';
+      font-family: 'Font Awesome 5 Free';
+      -webkit-font-smoothing: antialiased;
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      font-weight: 900;
+      line-height: 1;
+      position: absolute;
+      right: 20px;
+      -webkit-transform: translateY(-100%);
+          -ms-transform: translateY(-100%);
+              transform: translateY(-100%);
+      color: currentColor;
+      bottom: 0; }
+  .wp-block-advanced-accordion p:last-of-type {
+    margin-bottom: 0; }
+  .wp-block-advanced-accordion[open] summary:after {
+    content: '\f068'; }
+  .wp-block-advanced-accordion:not([open]) {
+    padding-bottom: 0; }
+  .wp-block-advanced-accordion.has-shadow {
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25); }
+  .wp-block-advanced-accordion + .wp-block-advanced-accordion {
+    margin-top: -0.8em; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+.components-button.block-library-gallery-add-item-button {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  border-radius: 0;
+  min-height: 100px;
+  background: #121111 !important;
+  color: white !important; }
+
+.wp-block-advanced-pricing-table__table:hover {
+  background-color: #457aff;
+  background-image: -webkit-linear-gradient(140deg, #457aff, #30d4b9);
+  background-image: line;
+  color: white !important; }
+
+.wp-block-advanced-pricing-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em; }
+  .wp-block-advanced-pricing-table.has-featured {
+    margin-top: 4em;
+    margin-bottom: 4em; }
+  .wp-block-advanced-pricing-table.columns-1 {
+    grid-template-columns: 1fr; }
+  .wp-block-advanced-pricing-table.columns-3 {
+    grid-template-columns: 1fr 1fr 1fr; }
+  .wp-block-advanced-pricing-table.columns-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr; }
+  .wp-block-advanced-pricing-table__title {
+    font-size: 1.5em;
+    margin: 0; }
+  .wp-block-advanced-pricing-table__description {
+    margin: 0;
+    font-size: 0.9em !important; }
+  .wp-block-advanced-pricing-table ul.wp-block-advanced-pricing-table__features {
+    list-style: none;
+    padding: 0;
+    margin: 2em 0; }
+    .wp-block-advanced-pricing-table ul.wp-block-advanced-pricing-table__features li {
+      margin: 0; }
+  .wp-block-advanced-pricing-table.has-shadow .wp-block-advanced-pricing-table__table {
+    -webkit-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25); }
+  .wp-block-advanced-pricing-table.has-full-width-button .wp-block-button__link {
+    width: 100%; }
+  .wp-block-advanced-pricing-table__table {
+    position: relative;
+    padding: 50px 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column; }
+    .wp-block-advanced-pricing-table__table.is-featured {
+      margin: -30px 0; }
+  .wp-block-advanced-pricing-table__header {
+    margin-bottom: 1.5em; }
+  .wp-block-advanced-pricing-table__features {
+    margin-top: 2.5rem;
+    margin-bottom: 2rem; }
+  .wp-block-advanced-pricing-table__price__amount {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1; }
+  .wp-block-advanced-pricing-table__price__term {
+    font-style: italic;
+    opacity: .6; }
+  .wp-block-advanced-pricing-table__footer {
+    margin-top: auto; }
+    .wp-block-advanced-pricing-table__footer .wp-block-button__link {
+      left: 0; }
+  .wp-block-advanced-pricing-table .wp-block-button {
+    margin-bottom: 0; }
+  .wp-block-advanced-pricing-table__featured_text {
+    position: absolute;
+    top: -17px;
+    left: 30px;
+    display: inline-block;
+    color: #fff;
+    font-size: 0.8em;
+    background-color: #1d1d1f;
+    padding: 10px 20px;
+    line-height: 1; }
+  .wp-block-advanced-pricing-table .wp-block-button__link {
+    font-size: 0.9em;
+    padding: 12px 20px;
+    line-height: 1;
+    border-radius: 3px !important; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+/**
+ * CTA styles
+ * Loads on front end and back end
+ */
+.ab-block-cta {
+  margin: 0 0 1.2em 0;
+  position: relative;
+  background: #f2f2f2;
+  color: #293038;
+  padding: 5% 3%;
+  border-radius: 5px; }
+  .ab-block-cta .components-autocomplete {
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+    position: relative; }
+  .ab-block-cta * {
+    z-index: 10;
+    position: relative; }
+  .ab-block-cta.alignfull {
+    border-radius: 0;
+    padding: 8% 3%; }
+  @media only screen and (max-width: 768px) {
+    .ab-block-cta {
+      padding: 8% 6%; } }
+  @media only screen and (min-width: 768px) {
+    .ab-block-cta.alignfull .ab-cta-content,
+    .ab-block-cta.alignfull .ab-cta-button {
+      max-width: 60%;
+      margin: 0 auto; } }
+  @media only screen and (min-width: 768px) {
+    .ab-block-cta.alignwide .ab-cta-content,
+    .ab-block-cta.alignwide .ab-cta-button {
+      max-width: 80%;
+      margin: 0 auto; } }
+  .ab-block-cta .ab-cta-image-wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1; }
+  .ab-block-cta .ab-cta-image {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease; }
+  .ab-block-cta .ab-cta-title {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: .3em;
+    line-height: 1.2; }
+  .ab-block-cta .ab-cta-text {
+    line-height: 1.4; }
+    .ab-block-cta .ab-cta-text p {
+      color: inherit; }
+    .ab-block-cta .ab-cta-text a {
+      color: inherit;
+      -webkit-box-shadow: 0 -1px 0 inset;
+              box-shadow: 0 -1px 0 inset;
+      text-decoration: none; }
+      .ab-block-cta .ab-cta-text a:hover {
+        color: inherit;
+        -webkit-box-shadow: 0 -2px 0 inset;
+                box-shadow: 0 -2px 0 inset; }
+  .ab-block-cta .ab-cta-button .blocks-rich-text {
+    display: -ms-inline-flexbox;
+    display: inline-flex; }
+  .ab-block-cta .ab-button {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1 !important;
+    background-color: #32373c;
+    border: none;
+    border-radius: 50px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    padding: .6em 1em;
+    text-decoration: none;
+    word-break: break-word;
+    -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+    display: inline-block; }
+    .ab-block-cta .ab-button:hover {
+      -webkit-box-shadow: inset 0 0 200px rgba(255, 255, 255, 0.15);
+              box-shadow: inset 0 0 200px rgba(255, 255, 255, 0.15); }
+  .ab-block-cta .ab-cta-title:empty,
+  .ab-block-cta .ab-cta-text:empty,
+  .ab-block-cta .ab-cta-button:empty,
+  .ab-block-cta .ab-button:empty {
+    display: none; }
+  .ab-block-cta .ab-button-shape-square {
+    border-radius: 0; }
+  .ab-block-cta .ab-button-shape-rounded {
+    border-radius: 5px; }
+  .ab-block-cta .ab-button-shape-circular {
+    border-radius: 100px; }
+  .ab-block-cta .ab-button-size-small {
+    font-size: 14px; }
+  .ab-block-cta .ab-button-size-medium {
+    font-size: 20px; }
+  .ab-block-cta .ab-button-size-large {
+    font-size: 26px;
+    padding: .8em 1.2em; }
+  .ab-block-cta .ab-button-size-extralarge {
+    font-size: 32px;
+    padding: .8em 1.2em; }
+  .ab-block-cta .ab-font-size-24.ab-cta-title {
+    font-size: 24px; }
+  .ab-block-cta .ab-font-size-26.ab-cta-title {
+    font-size: 26px; }
+  .ab-block-cta .ab-font-size-28.ab-cta-title {
+    font-size: 28px; }
+  .ab-block-cta .ab-font-size-30.ab-cta-title {
+    font-size: 30px; }
+  .ab-block-cta .ab-font-size-32.ab-cta-title {
+    font-size: 32px; }
+  .ab-block-cta .ab-font-size-34.ab-cta-title {
+    font-size: 34px; }
+  .ab-block-cta .ab-font-size-36.ab-cta-title {
+    font-size: 36px; }
+  .ab-block-cta .ab-font-size-38.ab-cta-title {
+    font-size: 38px; }
+  .ab-block-cta .ab-font-size-40.ab-cta-title {
+    font-size: 40px; }
+  .ab-block-cta .ab-font-size-42.ab-cta-title {
+    font-size: 42px; }
+  .ab-block-cta .ab-font-size-44.ab-cta-title {
+    font-size: 44px; }
+  .ab-block-cta .ab-font-size-46.ab-cta-title {
+    font-size: 46px; }
+  .ab-block-cta .ab-font-size-48.ab-cta-title {
+    font-size: 48px; }
+  .ab-block-cta .ab-font-size-50.ab-cta-title {
+    font-size: 50px; }
+  .ab-block-cta .ab-font-size-52.ab-cta-title {
+    font-size: 52px; }
+  .ab-block-cta .ab-font-size-54.ab-cta-title {
+    font-size: 54px; }
+  .ab-block-cta .ab-font-size-56.ab-cta-title {
+    font-size: 56px; }
+  .ab-block-cta .ab-font-size-58.ab-cta-title {
+    font-size: 58px; }
+  .ab-block-cta .ab-font-size-60.ab-cta-title {
+    font-size: 60px; }
+  .ab-block-cta .blocks-button__inline-link {
+    margin-top: 15px; }
+  .ab-block-cta .ab-cta-image:not(.has-background-dim) {
+    opacity: 0; }
+  .ab-block-cta .has-background-dim {
+    opacity: .5; }
+  .ab-block-cta .has-background-dim-10 {
+    opacity: .1; }
+  .ab-block-cta .has-background-dim-20 {
+    opacity: .2; }
+  .ab-block-cta .has-background-dim-30 {
+    opacity: .3; }
+  .ab-block-cta .has-background-dim-40 {
+    opacity: .4; }
+  .ab-block-cta .has-background-dim-50 {
+    opacity: .5; }
+  .ab-block-cta .has-background-dim-60 {
+    opacity: .6; }
+  .ab-block-cta .has-background-dim-70 {
+    opacity: .7; }
+  .ab-block-cta .has-background-dim-80 {
+    opacity: .8; }
+  .ab-block-cta .has-background-dim-90 {
+    opacity: .9; }
+  .ab-block-cta .has-background-dim-100 {
+    opacity: 1; }
+
+.ab-button-right {
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
+  left: 100%;
+  position: relative; }
+
+.ab-button-center {
+  margin: 0 auto; }
+
+.ab-cta-inspector-media.components-button {
+  vertical-align: top;
+  border: 1px solid #e2e4e7;
+  background-color: #fff;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 3px;
+  margin-bottom: 15px; }
+  .ab-cta-inspector-media.components-button:hover {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    border: solid 1px #555d66; }
+  .ab-cta-inspector-media.components-button:first-child {
+    margin-right: 8px; }
+  .ab-cta-inspector-media.components-button svg {
+    margin-right: 5px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-ub-number-box {
+  margin: 50px 0 50px 0;
+  max-width: 740px; }
+
+.ub_number_box {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem 0;
+  margin-top: 5rem; }
+
+.ub_number_box > div {
+  text-align: justify;
+  margin: 0 auto; }
+
+.ub_number_box.column_1 .ub_number_2, .ub_number_box.column_1 .ub_number_3 {
+  display: none; }
+
+.ub_number_box.column_1 > div {
+  width: 100%;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  border: 1px solid;
+  padding: 1rem; }
+
+.ub_number_box.column_2 .ub_number_3 {
+  display: none; }
+
+.ub_number_box.column_2 > div {
+  width: 49%;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  border: 1px solid;
+  padding: 1rem; }
+
+.ub_number_box.column_3 > div {
+  width: 33.2%;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  border: 1px solid;
+  padding: 1rem; }
+
+.ub_number_box.column_3 > div:first-child {
+  margin-left: 0; }
+
+.ub_number_box.column_3 > div:last-child {
+  margin-right: 0; }
+
+.ub_number_box_number {
+  border-radius: 100px;
+  overflow: hidden;
+  border: medium none;
+  max-width: 80px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: -60px !important;
+  margin-bottom: 25px; }
+
+.ub_number_one_number, .ub_number_two_number, .ub_number_three_number {
+  font-size: 40px !important;
+  text-align: center;
+  line-height: 80px !important;
+  margin: 0 auto !important; }
+
+.ub_number_one_title, .ub_number_two_title, .ub_number_three_title {
+  font-size: 30px !important;
+  text-align: center;
+  margin: 10px auto;
+  padding: 0; }
+
+@media screen and (max-width: 800px) {
+  .ub_number_box.column_3 {
+    display: block; }
+    .ub_number_box.column_3 > div {
+      width: 92% !important;
+      margin: 0 !important; } }
+
+@media screen and (max-width: 600px) {
+  .ub_number_box.column_2 {
+    display: block; }
+    .ub_number_box.column_2 > div {
+      width: 90% !important;
+      margin: 0 !important; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+.wp-block-advanced-posts-grid {
+  list-style: none;
+  padding: 0 !important;
+  word-break: break-word; }
+  @media screen and (max-width: 1000px) {
+    .wp-block-advanced-posts-grid {
+      margin: 0 !important; } }
+  .wp-block-advanced-posts-grid li {
+    margin: 0; }
+  .wp-block-advanced-posts-grid.is-list li + li {
+    margin-top: 2em; }
+  .wp-block-advanced-posts-grid.hide-author .wp-block-advanced-posts-grid__author {
+    display: none; }
+  .wp-block-advanced-posts-grid figure {
+    margin: 0 0 1em 0;
+    padding: 0; }
+  .wp-block-advanced-posts-grid.is-grid figure img {
+    max-height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .wp-block-advanced-posts-grid__excerpt {
+    margin: 1.5em 0 1em; }
+  .wp-block-advanced-posts-grid .wp-block-advanced-posts-grid__title {
+    margin: 0 0 1em; }
+  .wp-block-advanced-posts-grid__meta {
+    margin: 1em 0;
+    font-size: 0.8em; }
+    @media screen and (min-width: 768px) {
+      .wp-block-advanced-posts-grid__meta {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
+    .wp-block-advanced-posts-grid__meta p {
+      font-size: inherit !important; }
+    .wp-block-advanced-posts-grid__meta img {
+      width: 30px !important;
+      display: inline-block !important;
+      border-radius: 50%;
+      margin-right: 10px; }
+    .wp-block-advanced-posts-grid__meta span {
+      display: inline-block; }
+    .wp-block-advanced-posts-grid__meta span,
+    .wp-block-advanced-posts-grid__meta img {
+      vertical-align: middle; }
+  @media screen and (min-width: 768px) {
+    .wp-block-advanced-posts-grid.is-grid {
+      display: grid !important;
+      grid-gap: 50px;
+      grid-template-columns: repeat(2, 1fr); }
+      .wp-block-advanced-posts-grid.is-grid.columns-3 {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px; }
+      .wp-block-advanced-posts-grid.is-grid.columns-4 {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px; } }
+  .wp-block-advanced-posts-grid__read-more {
+    margin: 0; }
+  .wp-block-advanced-posts-grid.is-side li {
+    margin-bottom: 0; }
+  .wp-block-advanced-posts-grid.is-side figure img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .wp-block-advanced-posts-grid.is-side li + li {
+    margin-top: 2em; }
+  .wp-block-advanced-posts-grid.is-side .wp-block-advanced-posts-grid__title {
+    margin-top: 0; }
+  @media screen and (min-width: 768px) {
+    .wp-block-advanced-posts-grid.is-side li {
+      display: -ms-flexbox;
+      display: flex; }
+    .wp-block-advanced-posts-grid.is-side figure {
+      margin-bottom: 0;
+      width: 40%;
+      margin-right: 20px; }
+    .wp-block-advanced-posts-grid.is-side .wp-block-advanced-posts-grid__content {
+      -ms-flex: 1;
+          flex: 1; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+**/
+.bokez-notification {
+  padding: 1.3em 1.5em;
+  margin: 0;
+  position: relative;
+  display: none; }
+  .bokez-notification p {
+    margin: 0; }
+
+.bokez-notification-close {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+  z-index: 2;
+  cursor: pointer;
+  display: inline-block; }
+
+.bokez-notification-info {
+  background-color: #74b9ff;
+  color: white; }
+
+.bokez-notification-error {
+  background-color: #d63031;
+  color: white; }
+
+.bokez-notification-warning {
+  background-color: #ffeaa7;
+  color: black; }
+
+.bokez-notification-success {
+  background-color: #00b894;
+  color: white; }
+
+.bokez-notification-warning svg {
+  fill: black; }
+
+.bokez-notification-success svg,
+.bokez-notification-error svg,
+.bokez-notification-info svg {
+  fill: white; }
+
+.bokez-notification-primary {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff; }
+
+.bokez-notification-secondary {
+  color: #383d41;
+  background-color: #e2e3e5;
+  border-color: #d6d8db; }
+
+.bokez-notification-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb; }
+
+.bokez-notification-light {
+  color: #818182;
+  background-color: #fefefe;
+  border-color: #fdfdfe; }
+
+.bokez-notification-dark {
+  color: #1b1e21;
+  background-color: #d6d8d9;
+  border-color: #c6c8ca; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bokez-block-form .editor-url-input input[type=text] {
+  border: 1px solid #e1e1e1; }
+
+._item_bokez ._item_controls_bokez {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #010100;
+  color: white;
+  z-index: 9999;
+  padding: 0 4px; }
+  ._item_bokez ._item_controls_bokez span {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer; }
+
+.bokez-add-item-wrapper {
+  margin: 20px auto;
+  text-align: center; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+**/
+.bokez-blockquote {
+  border: none;
+  padding: 1em;
+  font-size: 1.3rem; }
+  .bokez-blockquote:after, .bokez-blockquote:before {
+    display: none; }
+
+.bokez-blockquote cite {
+  display: block;
+  margin-top: 1em;
+  font-size: 0.8em;
+  text-transform: capitalize; }
+
+@media screen and (min-width: 768px) {
+  .bokez-blockquote {
+    font-size: 1.5rem; } }

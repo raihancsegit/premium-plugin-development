@@ -1,0 +1,64 @@
+i.dashicon {
+	width: 20px;
+	height: 20px;
+	font-size: 18px;
+	overflow: hidden;
+}
+
+.advanced-p-20 {
+	padding: 20px;
+	p:last-of-type {
+		margin-bottom: 0;
+	}
+}
+
+[class*="wp-block-advanced-"] {
+
+	h1,h2,h3,h4,h5,h6,p {
+		color: inherit;
+	}
+}
+
+.wp-block-advanced-accordion {
+	.editor-rich-text__tinymce[data-is-placeholder-visible=true]:after {
+		right: -20px;
+	}
+
+	&__title {
+		padding: 20px;
+		font-size: 18px;
+		font-weight: normal;
+		line-height: 1 !important;
+		position: relative;
+		margin: -20px -20px 0px -20px !important;
+
+		+ .wp-block-advanced-accordion__title:after {
+			display: none;
+		}
+
+		&:after {
+			content: '\f068';
+			font-family: 'Font Awesome 5 Free';
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			font-weight: 900;
+			line-height: 1;
+
+			position: absolute;
+			right: 20px;
+			transform: translateY(-100%);
+			color: currentColor;
+			bottom: 0;
+		}
+	}
+	&__content {
+		padding: 20px 0;
+
+		p {
+			color: inherit;
+		}
+	}
+}

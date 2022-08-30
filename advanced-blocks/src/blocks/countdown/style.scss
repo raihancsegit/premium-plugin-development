@@ -1,0 +1,18 @@
+.eb-countdown-items {
+  display: flex;
+  flex: 1;
+}
+.eb-countdown-item {
+  list-style: none;
+  border: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.eb-countdown-days,
+.eb-countdown-hours,
+.eb-countdown-minutes,
+.eb-countdown-seconds {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,168 @@
+.profile-container {
+  display: flex;
+}
+
+.profile-icon-wrapper {
+  height: 1em;
+  width: 1em;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.profile-icon-wrapper:hover {
+  color: #ffffff;
+}
+
+.profile-icon-wrapper:visited {
+  color: #ffffff;
+}
+
+/* Add Social Profile Original Icon Styles */
+$twitter: #00aced;
+$facebook: #3b5998;
+$google-plus: #dd4b39;
+$pinterest: #cb2027;
+$linkedin: #007bb6;
+$youtube: #ff0000;
+$vimeo: #1ab7ea;
+$tumblr: #32506d;
+$instagram: #bc2a8d;
+$flickr: #ff0084;
+$dribbble: #ea4c89;
+$quora: #a82400;
+$foursquare: #0072b1;
+$forrst: #5b9a68;
+$vk: #45668e;
+$wordpress: #21759b;
+$stumbleupon: #eb4823;
+$yahoo: #7b0099;
+$blogger: #fb8f3d;
+$soundcloud: #ff3a00;
+$skype: #00aaf2;
+$whatsapp: #4dc247;
+$github: #000000;
+$reddit: #ff4500;
+$stack-overflow: #ffa500;
+
+.facebook-original {
+  background: $facebook;
+}
+
+.twitter-original {
+  background: $twitter;
+}
+
+.google-plus-original {
+  background: $google-plus;
+}
+
+.pinterest-original {
+  background: $pinterest;
+}
+
+.linkedin-original {
+  background: $linkedin;
+}
+
+.youtube-play-original {
+  background: $youtube;
+}
+
+.vimeo-original {
+  background: $vimeo;
+}
+
+.tumblr-original {
+  background: $tumblr;
+}
+
+.instagram-original {
+  background: $instagram;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.flickr-original {
+  background: $flickr;
+}
+
+.dribbble-original {
+  background: $dribbble;
+}
+
+.quora-original {
+  background: $quora;
+}
+
+.foursquare-original {
+  background: $foursquare;
+}
+
+.forrst-original {
+  background: $forrst;
+}
+
+.vk-original {
+  background: $vk;
+}
+
+.wordpress-original {
+  background: $wordpress;
+}
+
+.yahoo-original {
+  background: $yahoo;
+}
+
+.soundcloud-original {
+  background: $soundcloud;
+}
+
+.skype-original {
+  background: $skype;
+}
+
+.github-original {
+  background: $github;
+  color: #ffffff;
+}
+
+.reddit-original {
+  background: $reddit;
+}
+
+.stack-overflow-original {
+  background: $stack-overflow;
+}
+
+.whatsapp-original {
+  background: $whatsapp;
+}

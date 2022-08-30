@@ -1,0 +1,137 @@
+.components-button.block-library-gallery-add-item-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    min-height: 100px;
+    background: #121111 !important;
+    color: white !important;
+}
+
+.wp-block-advanced-pricing-table__table:hover {
+	background-color: #457aff;
+	background-image: -webkit-linear-gradient(140deg, #457aff, #30d4b9);
+	background-image: line;
+	color: white !important;
+}
+
+
+.wp-block-advanced-pricing-table {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+
+	&.has-featured {
+		margin-top: 4em;
+		margin-bottom: 4em;
+	}
+
+	&.columns-1 {
+		grid-template-columns: 1fr;
+	}
+	&.columns-3 {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	&.columns-4 {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+
+	&__title {
+		font-size: 1.5em;
+		margin: 0;
+	}
+
+	&__description {
+		margin: 0;
+		font-size: 0.9em !important;
+	}
+
+	ul.wp-block-advanced-pricing-table__features {
+		list-style: none;
+		padding: 0;
+		margin: 2em 0;
+
+		li {
+			margin: 0;
+		}
+	}
+
+	&.has-shadow {
+		.wp-block-advanced-pricing-table__table {
+			box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+		}
+	}
+
+	&.has-full-width-button {
+		.wp-block-button__link {
+			width: 100%;
+		}
+	}
+
+	&__table {
+		position: relative;
+		padding: 50px 20px;
+		display: flex;
+		flex-direction: column;
+
+		&.is-featured {
+			margin: -30px 0;
+		}
+	}
+
+	&__header {
+		margin-bottom: 1.5em;
+	}
+
+	&__features {
+		margin-top: 2.5rem;
+		margin-bottom: 2rem;
+	}
+
+	&__price__amount {
+		font-size: 1.5em;
+		font-weight: bold;
+		line-height: 1;
+	}
+
+	&__price__term {
+		font-style: italic;
+		opacity: .6;
+	}
+
+	&__footer {
+		margin-top: auto;
+
+		.wp-block-button__link {
+			left: 0;
+		}
+	}
+
+	.wp-block-button {
+		margin-bottom: 0;
+	}
+
+	&__featured_text {
+		position: absolute;
+		top: -17px;
+		left: 30px;
+		display: inline-block;
+		color: #fff;
+		font-size: 0.8em;
+		background-color: $black;
+		padding: 10px 20px;
+		line-height: 1;
+	}
+
+	.wp-block-button__link {
+		font-size: 0.9em;
+		padding: 12px 20px;
+		line-height: 1;
+		border-radius: 3px !important;
+	}
+}
